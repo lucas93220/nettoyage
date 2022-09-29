@@ -39,11 +39,13 @@ a{
 }
 
 .container-faq{
+    width: 100%;
     display: flex;
+    gap: 1rem;
     flex-direction: column;
     align-items: center;
-    width: 100%;
-    gap: 0.8rem;
+    
+    
 }
 .questions{
     width: 100%;
@@ -74,19 +76,7 @@ a{
     width: 0;
     height: 0;
 }
-.toggle-on{
-    display: block;
-    margin: 2rem;
-    color: #f0f0f0;
-    transition: 0.8s all ease-in-out ;
-}
-.toggle-on>h3{
-    font-size: 2rem;
-}
-.toggle-on>p{
-    font-size: 1.6rem;
-    line-height: 2.6rem;
-}
+
 
 button, input, select, option{
     background: none;
@@ -95,6 +85,6 @@ button, input, select, option{
 footer{
     width: 100%;
     text-align: center;
-    margin: 2rem;
+    margin: 1.8rem;
     font-size: medium;
 }
