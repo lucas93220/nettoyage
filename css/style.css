@@ -62,6 +62,12 @@ a{
     padding-bottom: 1.5rem;
 
 }
+.toggle-pannel{
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
 .visible-pannel h2{
     margin-left: 1rem;
     font-size: 2rem;
@@ -69,12 +75,6 @@ a{
 .visible-pannel img{
     max-width: 2rem;
     margin-right: 1rem;
-}
-
-.toggle-pannel{
-    opacity: 0;
-    width: 0;
-    height: 0;
 }
 
 
