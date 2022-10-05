@@ -2,11 +2,11 @@ document.addEventListener("DOMContentLoaded", e => {
     const a = document.querySelector('.visible-pannel');
     const b = document.querySelector('.toggle-pannel');
 
-    let visible = false;
+    let faq = false;
 
     a.addEventListener('click', () => {
 
-        visible = !visible;
-        visible ? b.classList.add('is-visible') : b.classList.remove('is-visible');
+        faq = !faq;
+        faq ? b.classList.add('is-visible') : b.classList.remove('is-visible');
     });
 });
