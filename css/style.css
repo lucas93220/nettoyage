@@ -62,19 +62,51 @@ a{
     padding-bottom: 1.5rem;
 
 }
-.toggle-pannel{
-    opacity: 0;
-    width: 0;
-    height: 0;
-}
+.visible-pannel{
+    display: flex;
+    background-color: #FFFFFF;
+    border-radius: 1rem;
+    color: #000;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    line-height: 4rem ;
 
+}
 .visible-pannel h2{
     margin-left: 1rem;
     font-size: 2rem;
+    color: #000;
+    
 }
 .visible-pannel img{
     max-width: 2rem;
     margin-right: 1rem;
+    cursor: pointer;
+}
+.toggle-pannel{
+    display: none;
+    border-radius: 1rem;
+    text-align: justify;
+}
+
+.toggle-pannel.is-visible{
+display: block;
+margin: 2rem;
+color: #000;
+transition: 0.2s all ease-in-out ;
+}
+
+.is-visible>h3{
+    font-size: 1.3rem;
+    color: #fff;
+}
+.is-visible>p{
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
